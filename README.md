@@ -1,6 +1,2 @@
 # CoffeeShopTemplate
-test
-hei
 
-
-<title>
