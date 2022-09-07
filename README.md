@@ -1,20 +1,14 @@
 # The coffeeShop case study
 
-# 
-
 In this project we created two websites both located in New York and London. 
 
 The one called, contosocoffeelondon and the other contosocoffeenewyork. 
 
 Difficulty Level 3: Host the Docker Container solution via Azure Container Registries and pull into an Azure ACI solution.
 
-
-
 ## Company Overview
 
 Contoso Coffee is a small coffee house that is opening soon in London and New York, they are looking for a cloud hosted solution for their website and data storage, costs must be kept to a minimum.
-
-
 
 Here is the steps to create the project. 
 
@@ -28,7 +22,7 @@ Here is the steps to create the project.
 
 5. Then loadbalance those two with geo-redundancy. (Mike said, use TM, but Front door?
 
-
+6. Create a storage account with blob storage and create a lifecycle management rule that says move to Archive tier after 30 days. 
 
 ## User accounts
 
@@ -45,8 +39,6 @@ Dave requires admin access to the resources hosted on Azure for the Contoso Coff
 *Mark*
 
 Mark will require read-only access to the Contoso Coffee resources. He will therefore get read-only access scoped to the resource group. 
-
-
 
 ## Load Balancing and Geo-redundent access
 
@@ -68,7 +60,7 @@ From resource groups.
 
 ## Commands
 
-//builds the image (have to be in the CoffeeShopTemplate).
+//builds the image (have to be in the CoffeeShopTemplate)
 docker build . -t coffee-app
 
 //runs container. Create your own name. Opens to port 80. 
