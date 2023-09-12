@@ -1,0 +1,19 @@
+{
+  "name": "coffeeshoptemplate",
+  "version": "1.0.0",
+  "description": "host_for_CCS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsortland/CoffeeShopTemplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arsortland/CoffeeShopTemplate/issues"
+  },
+  "homepage": "https://github.com/arsortland/CoffeeShopTemplate#readme"
+}
